@@ -33,6 +33,9 @@ namespace MoreDomain.UI.Portal
             // 获取当前编译文件的所有路由。Core复制过来的dll文件，就会有Core的路由，删除之后就没了。
             var cccc = RouteTable.Routes;
 
+            //引用项目生成相关dll
+
+            // 整个项目使用区域路由。
         }
 
         protected void Session_Start(object sender, EventArgs e)
